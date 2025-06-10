@@ -168,6 +168,29 @@ base= float(input("Ingrese el valor de la base (cm):"))
 altura= float(input("Ingrese el valor de la altura (cm):"))
 print(f"para un triangulo con base : {base} cm y altura {altura} cm, el area es:", (base*altura / 2), " cm")
 
+#Verificar si un nro es par o impar:
+nro = int(input("Ingrese el valor que desea comprobar: "))
+if (nro %2 == 0):
+    print(f"el numero {nro} es par")
+else:
+    print(f"el numero {nro} es impar")
+
+#Promedio de 3 nros:
+total = 0
+nota = 0
+i = 1
+for i in range(1,4):
+    nota = float(input(f"Ingrese la {i} nota:"))
+    total += nota
+print(f"El promedio de las 3 notas es:", total/3)
+
+#El mayor entre dos nros:
+nro1= int(input("Ingrese el primer valor: "))
+nro2= int(input("Ingrese el segundo valor: "))
+if(nro1 > nro2):
+    print(f"el mayor entre {nro1} y {nro2} es: {nro1}")
+else:
+    print(f"el mayor entre {nro1} y {nro2} es: {nro2}")
 
 
 #Para casos de importacion y mal ejecuciones de modulos se realiza la siguiente comprobacion:
