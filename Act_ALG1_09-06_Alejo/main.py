@@ -189,10 +189,10 @@ nro1= int(input("Ingrese el primer valor: "))
 nro2= int(input("Ingrese el segundo valor: "))
 if(nro1 > nro2):
     print(f"el mayor entre {nro1} y {nro2} es: {nro1}")
-else:
+elif (nro2 > nro1):
     print(f"el mayor entre {nro1} y {nro2} es: {nro2}")
-
-
+else:
+    print(f"Los nros {nro1} y {nro2} son iguales")
 #Para casos de importacion y mal ejecuciones de modulos se realiza la siguiente comprobacion:
 
 if __name__=="__main__":
