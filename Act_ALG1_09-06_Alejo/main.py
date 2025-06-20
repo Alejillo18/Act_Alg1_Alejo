@@ -193,6 +193,7 @@ elif (nro2 > nro1):
     print(f"el mayor entre {nro1} y {nro2} es: {nro2}")
 else:
     print(f"Los nros {nro1} y {nro2} son iguales")
+    
 #Para casos de importacion y mal ejecuciones de modulos se realiza la siguiente comprobacion:
 
 if __name__=="__main__":
